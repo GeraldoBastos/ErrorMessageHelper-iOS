@@ -13,9 +13,10 @@ ___
 	
 ## Exemplo
  
-```NSDictionary *dic = @{@"status":@"ZERO_RESULTS",@"routes":@[]};
+```objective-c
+NSDictionary *dic = @{@"status":@"ZERO_RESULTS",@"routes":@[]};
     NSError *error = [ErrorMessage showMessageWithError:dic withTypeApi:GoogleMaps];
-    NSLog(@"%@",error.description);`
+    NSLog(@"%@",error.description);
 ```
 
 ## Licença
